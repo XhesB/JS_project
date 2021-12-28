@@ -123,9 +123,52 @@ console.log(JohnBMI);
 const markHigherBMI = MarkBMI > JohnBMI;
 console.log(MarkBMI > JohnBMI);
 */
-
+/*
 const firstName = 'Jessica'; 
 const job = 'researcher';
 const birthYear = 1994;
 
+const jessica = "I'm" + ' ' + firstName + ', a' + ' ' + job + ', born in' + ' ' + birthYear;
+console.log(jessica);
+*/
+/*
+const firstName = 'Jessica'; 
+const job = 'researcher';
+const birthYear = 1994;
+const year = 2021;
 
+const jessica = "I'm" + ' ' + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(jessica);
+
+const jessicaNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log (jessicaNew);
+
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`string
+multiple
+lines`);
+*/
+
+const age = 15; 
+if(age >= 18) {
+console.log('Sarah can start driving license 🚗');
+} else {
+const yearsLeft = 18 - age;
+console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`)
+}
+
+const birthYear = 2013;
+
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
