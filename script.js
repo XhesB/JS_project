@@ -184,6 +184,7 @@ is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark
 BMI (28.3) is higher than John's (23.9)!"
 Hint: Use an if/else statement
 */
+/*
 let weight;
 let height;
 const BMI = weight / height ** 2;
@@ -203,3 +204,56 @@ if(MarkBMI > JohnBMI) {
 } else {
   console.log(`John's BMI is higher than Mark's!`);
 }
+
+if(MarkBMI > JohnBMI) {
+  console.log(`Mark's BMI (${MarkBMI}) is higher than John's (${JohnBMI})!`);
+} else {
+  console.log(`John's BMI (${JohnBMI}) is higher than Mark's (${MarkBMI})!`);
+}
+*/
+/*
+//type conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// type coercion
+console.log('I am ' + 27 + ' years old');
+console.log('I am ' + '27' + ' years old');
+console.log('I am ' + String(27) + ' years old');
+console.log('23' - '10' - 3);
+console.log('23' / '2')
+
+let n = '1' + 1; //'11'
+n = n - 1; //'10'
+console.log(n);
+*/
+/*
+// 5 falsy values: 0, '', undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jessica'));
+console.log(Boolean(''));
+console.log(Boolean(NaN));
+console.log(Boolean(null));
+console.log(Boolean({}));
+
+const money = 100;
+if (money) {
+  console.log("Don't spend it all");
+} else {
+  console.log('You should get a job!');
+}
+
+let height = 163;
+if(height) {
+  console.log('YAY! Height is defined');
+} else {
+  console.log('Height is UNDEFINED');
+}
+*/
