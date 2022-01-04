@@ -328,41 +328,125 @@ if(hasDriversLicense && hasGoodVision && !isTired) {
 // § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 // GOOD LUCK 😀
 
-  // const scoreDolphins = (96 + 108 + 89) / 3;
-  // const scoreKoalas = (88 + 91 + 110) / 3;
-  // console.log(scoreDolphins, scoreKoalas);
-  // const hasHigherPoints = scoreDolphins > scoreKoalas; 
-  // if(scoreDolphins > scoreKoalas) {
-  //   console.log('Dolphins win the trophy :D');
-  // } else if(scoreDolphins < scoreKoalas) {
-  //   console.log('Koalas win the trophy');
-  // } else if (scoreDolphins === scoreKoalas) {
-  //   console.log('Both teams win!');
-  // }
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+// const hasHigherPoints = scoreDolphins > scoreKoalas;
+// if(scoreDolphins > scoreKoalas) {
+//   console.log('Dolphins win the trophy :D');
+// } else if(scoreDolphins < scoreKoalas) {
+//   console.log('Koalas win the trophy');
+// } else if (scoreDolphins === scoreKoalas) {
+//   console.log('Both teams win!');
+// }
 
-// Bonus 1 
-  // const scoreDolphins = (97 + 112 + 101) / 3;
-  // const scoreKoalas = (109 + 95 + 123) / 3;
-  // console.log(scoreDolphins, scoreKoalas);
-  // const hasHigherPoints = scoreDolphins > scoreKoalas; 
-  // if(scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-  //   console.log('Dolphins win the trophy :D');
-  // } else if(scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
-  //   console.log('Koalas win the trophy');
-  // } 
+// Bonus 1
+// const scoreDolphins = (97 + 112 + 101) / 3;
+// const scoreKoalas = (109 + 95 + 123) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+// const hasHigherPoints = scoreDolphins > scoreKoalas;
+// if(scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log('Dolphins win the trophy :D');
+// } else if(scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
+//   console.log('Koalas win the trophy');
+// }
 
-  // Bonus 2
+// Bonus 2
 
-  const scoreDolphins = (97 + 112 + 101) / 3;
-  const scoreKoalas = (109 + 95 + 106) / 3;
-  console.log(scoreDolphins, scoreKoalas);
-  const hasHigherPoints = scoreDolphins > scoreKoalas; 
-  if(scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-    console.log('Dolphins win the trophy :D');
-  } else if(scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
-    console.log('Koalas win the trophy');
-  } else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
-    console.log('Both teams win!');
-  } else { 
-    console.log('No one wins');
-  }
+// const scoreDolphins = (97 + 112 + 101) / 3;
+// const scoreKoalas = (109 + 95 + 106) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+// const hasHigherPoints = scoreDolphins > scoreKoalas;
+// if(scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log('Dolphins win the trophy :D');
+// } else if(scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
+//   console.log('Koalas win the trophy');
+// } else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+//   console.log('Both teams win!');
+// } else {
+//   console.log('No one wins');
+// }
+/*
+const day = 'friday';
+
+switch (day) {
+  case 'monday': // day === 'monday'
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+    break;
+  case 'tuesday':
+    console.log('Prepare theory videos');
+    break;
+  case 'wednesday':
+  case 'thursday':
+    console.log('Write code examples');
+    break;
+  case 'friday':
+    console.log('Record videos');
+    break;
+  case 'saturday':
+  case 'sunday':
+    console.log('Enjoy the weekend :D');
+    break;
+  default:
+    console.log('Not a valid day!');
+}
+
+if (day === 'monday') {
+  console.log('Plan course structure');
+  console.log('Go to coding meetup');
+} else if (day === 'tuesday') {
+  console.log('Prepare theory videos');
+} else if (day === 'wednesday' || day === 'thursday') {
+  console.log('Write code examples');
+} else if (day === 'friday') {
+  console.log('Record videos');
+} else if (day === 'saturday' || day === 'sunday') {
+  console.log('Enjoy the weekend');
+} else {
+  console.log('Not a valid day');
+}
+*/
+/*
+const age = 23;
+age >= 18
+  ? console.log('I like to drink wine')
+  : console.log('I like to drink water');
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = 'wine';
+} else {
+  drink2 = 'water';
+}
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+*/
+
+// Challenge number 4
+// Steven wants to build a very simple tip calculator for whenever he goes eating in a restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%.
+// Your tasks:
+// 1. Calculate the tip, depending on the bill value. Create a variable called 'tip' for this. It's not allowed to use an if/else statement 😅 (If it's easier for you, you can start with an if/else statement, and then try to convert it to a ternary operator!)
+// 2. Print a string to the console containing the bill value, the tip, and the final value (bill + tip). Example: “The bill was 275, the tip was 41.25, and the total value 316.25”
+// Test data:
+// § Data 1: Test for bill values 275, 40 and 430
+// Hints:
+// § To calculate 20% of a value, simply multiply it by 20/100 = 0.2
+// § Value X is between 50 and 300, if it's >= 50 && <= 300 😉
+// GOOD LUCK 😀
+
+// // const bill = 275;
+// // const bill = 40;
+// const bill = 430;
+// const tip1 = bill * 0.15;
+// const finalValue1 = bill + tip1;
+// const tip2 = bill * 0.2;
+// const finalValue2 = bill + tip2;
+// bill >= 50 && bill <= 300 ? console.log(tip1) : console.log(tip2);
+// console.log(
+//   `The bill was 430, the tip was ${tip2}, and the total value ${finalValue2}`
+// );
